@@ -2,7 +2,11 @@
 """
 Created on Thu Jan 23 11:34:15 2025
 
-@author: ASH02
+@author: W0rk-in-Progress
+Still not finished - guess what, it's a WIP!
+
+Remerciements à S. Capdevielle : pédagogue de prodige qui mèle savamment la joie de la découverte au plaisir d'apprendre !
+Merci de m'avoir poussé jusqu'au bout du chemin.
 """
 
 import numpy as np
@@ -11,6 +15,9 @@ from time import time
 import subprocess
 
 def git_push(commit_message="Auto commit"):
+    """
+    courtesy of ChatGPT cuz I'm new to this Git biz.
+    """
     try:
         # Add all changes
         subprocess.run(["git", "add", "."], check=True)
